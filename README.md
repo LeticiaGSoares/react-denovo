@@ -6,4 +6,4 @@
         1.2.1 - 
     1.3 - Footer (Rodapé com copyright e possíveis links úteis)
 
-    https://i.pinimg.com/originals/06/71/85/0671856687350e23a230f2b6536fc337.gif
+    
