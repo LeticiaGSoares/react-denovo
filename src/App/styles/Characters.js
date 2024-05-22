@@ -22,3 +22,8 @@ export const Card = styled.img`
     width: 180px;
     border-radius: 10px
 `
+
+export const CardSection = styled.div`
+    display: grid;
+    grid-template-columns:
+`

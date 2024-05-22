@@ -5,6 +5,7 @@ import Characters from './components/Characters'
 import Watch from './components/Watch'
 import Letters from './components/Letters'
 import KnowMore from './components/KnowMore'
+import Pagina404 from './components/Pagina404'
 
 //Routes define as áreas que vamos colocar os nossos routes
 //Route recebe o caminho em path. Se esse caminho for o mesmo do URL ele irá renderizar o que está dentro
@@ -20,6 +21,7 @@ const App = () => {
         <Route path='/letters' element={<Letters/>}/>
         <Route path='/watch' element={<Watch/>}/>
         <Route path='/knowmore' element={<KnowMore/>}/>
+        <Route path='*' element={<Pagina404/>}/>
 
       </Routes>
     </BrowserRouter>
